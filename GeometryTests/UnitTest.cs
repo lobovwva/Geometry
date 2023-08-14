@@ -7,7 +7,7 @@ namespace GeometryTests
         #region Circle
 
         /// <summary>
-        /// Тест на отрицательный радиус круга
+        /// РўРµСЃС‚ РЅР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№ СЂР°РґРёСѓСЃ РєСЂСѓРіР°
         /// </summary>
         [Test]
         public void CircleNegativeRadiusTest()
@@ -16,7 +16,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем вычисление площади круга
+        /// РўРµСЃС‚РёСЂСѓРµРј РІС‹С‡РёСЃР»РµРЅРёРµ РїР»РѕС‰Р°РґРё РєСЂСѓРіР°
         /// </summary>
         [Test]
         public void CircleCalcSquareTest()
@@ -30,7 +30,7 @@ namespace GeometryTests
         #region RightTriangle
 
         /// <summary>
-        /// Тестируем отрицательные стороны прямоугольного треугольника
+        /// РўРµСЃС‚РёСЂСѓРµРј РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рµ СЃС‚РѕСЂРѕРЅС‹ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Test]
         public void RightTriangleNegativeSidesTest()
@@ -40,7 +40,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем вычисление площади прямоугольного треугольника
+        /// РўРµСЃС‚РёСЂСѓРµРј РІС‹С‡РёСЃР»РµРЅРёРµ РїР»РѕС‰Р°РґРё РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Test]
         public void RightTriangleCalcSquareTest()
@@ -53,7 +53,7 @@ namespace GeometryTests
         #region Triangle
 
         /// <summary>
-        /// Тестируем отрицательные стороны треугольника
+        /// РўРµСЃС‚РёСЂСѓРµРј РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рµ СЃС‚РѕСЂРѕРЅС‹ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Test]
         public void TriangleNegativeSidesTest()
@@ -64,7 +64,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем отрицательное основание и высоту треугольника
+        /// РўРµСЃС‚РёСЂСѓРµРј РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ РѕСЃРЅРѕРІР°РЅРёРµ Рё РІС‹СЃРѕС‚Сѓ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Test]
         public void TriangleNegativeBaseHeightTest()
@@ -74,7 +74,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем вычисление площади треугольника
+        /// РўРµСЃС‚РёСЂСѓРµРј РІС‹С‡РёСЃР»РµРЅРёРµ РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Test]
         public void TriangleCalcSquareTest()
@@ -84,7 +84,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем определение на прямоугольный треугольник
+        /// РўРµСЃС‚РёСЂСѓРµРј РѕРїСЂРµРґРµР»РµРЅРёРµ РЅР° РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє
         /// </summary>
         [Test]
         public void TriangleIsRightAngleTest()
@@ -93,7 +93,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем определение на НЕ прямоугольный треугольник
+        /// РўРµСЃС‚РёСЂСѓРµРј РѕРїСЂРµРґРµР»РµРЅРёРµ РЅР° РќР• РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє
         /// </summary>
         [Test]
         public void TriangleIsNotRightAngleTest()
@@ -102,7 +102,7 @@ namespace GeometryTests
         }
 
         /// <summary>
-        /// Тестируем невозможность определение на прямоугольный треугольник без заданных сторон
+        /// РўРµСЃС‚РёСЂСѓРµРј РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РѕРїСЂРµРґРµР»РµРЅРёРµ РЅР° РїСЂСЏРјРѕСѓРіРѕР»СЊРЅС‹Р№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє Р±РµР· Р·Р°РґР°РЅРЅС‹С… СЃС‚РѕСЂРѕРЅ
         /// </summary>
         [Test]
         public void TriangleIsRightAngleExceptTest()
